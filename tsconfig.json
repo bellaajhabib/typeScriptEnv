@@ -1,6 +1,10 @@
 {
-  "include": ["src/**/*.ts"],
+  "include": ["src/index.ts"],
+
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "allowJs": true,
+    "module": "ESNext",
+    "target": "ES6"
   }
 }
